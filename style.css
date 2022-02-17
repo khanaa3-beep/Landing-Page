@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+
+.flex-container-1 {
+    display: flex;
+    background-color: #1F2937;
+    height: 50px;
+}
+  
+.flex-container-1 div {
+    flex: 1 0 0;
+    color: #E5E7EB;
+    vertical-align: middle;
+    line-height: 50px;
+    font-size: 18px;
+
+}
+
+.flex-container-1 .one {
+    flex: 5 0 0;
+    text-align: center;
+}
+
+.flex-container-2 {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    height: 300px;
+}
+
+  
+.flex-container-2 div {
+    flex: 1 0 0;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.item-2-2 {
+    background-color: rgb(78, 74, 74);
+}
+
+.awesome{
+    font-size: 48px;
+    color: #F9FAF8;
+
+}
+
+.secondary{
+    font-size: 18px;
+    color:  #E5E7EB;
+}
+
